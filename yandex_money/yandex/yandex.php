@@ -61,7 +61,7 @@ function woocommerce_YM_payu_init(){
  
        public function admin_options(){
         echo '<h3>'.__('Кошелек Яндекс.Деньги','yandex_money').'</h3>';
-		echo '<h5>'.__('Для работы с модулем необходимо <a href="https://money.yandex.ru/joinups/">подключить магазин к Яндек.Кассе</a>. После подключения вы получите параметры для приема платежей (идентификатор магазина — shopId и номер витрины — scid).','yandex_money').'</h5>';
+		echo '<h5>'.__('Для работы с модулем необходимо <a href="https://money.yandex.ru/joinups/">подключить магазин к Яндекс.Кассе</a>. После подключения вы получите параметры для приема платежей (идентификатор магазина — shopId и номер витрины — scid).','yandex_money').'</h5>';
         echo '<table class="form-table">';
         // Generate the HTML For the settings form.
         $this -> generate_settings_html();
